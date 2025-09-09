@@ -1,0 +1,17 @@
+cometbft:
+  - hostname: "node-story-01"
+    http_url: "http://1.1.1.1:26657"
+    chain_name: "cosmos"
+    chain_id:
+    ws_endpoint: "/websocket"
+    node_version:
+    check_second: 8
+
+evm:
+  - hostname: "node-story-geth-01"
+    http_url: "http://1.2.2.1:8545"
+    ws_url: "ws://1.2.2.1:8546"
+    chain_name: "ethereum"
+    chain_id: "1"
+    node_version: ""
+    check_second: 20
